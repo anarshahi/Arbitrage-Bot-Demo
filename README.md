@@ -6,7 +6,8 @@ The bot operates on the Binance Smart Chain (BSC) and supports both testnet and 
 
 ## Important Notice:
 The demo code for this bot is stored in a **private repository** for security reasons.  
-Access to the demo code is available **only after payment**.  
+Access to the demo code is available **only after payment**.
+In the botom of page you can find **price list**. 
 
 ## How to Get Access:
 1. Contact us via email or Telegram:  
