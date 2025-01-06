@@ -13,7 +13,9 @@ In the botom of page you can find **price list**.
 1. Contact us via email or Telegram:  
    - 📧 **Email:** aladeiash@gmail.com  
    - 📱 **Telegram:** @botcreater77  
-2. After payment, we will invite you to the **private repository** containing the demo code.  
+2. After payment, we will invite you to the **private repository** containing the demo code.
+3. After payment, we will provide an invitation to the private repository:  
+[Access Private Repository (After Payment)](https://github.com/anarshahi/arbitrage_bot_code_demo.git)  
 
 ## Key Features
 
