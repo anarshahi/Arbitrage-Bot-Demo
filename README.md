@@ -100,7 +100,7 @@ Scalable to support additional DEX upon request.
   ```bash
   node telegram.js
 
-Pricing and Licensing
+## Pricing and Licensing
 Demo Version: $80 (Testnet only).
 Full Version (without support): $2700.
 Licensed under MIT License (see LICENSE file).
