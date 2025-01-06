@@ -90,23 +90,23 @@ Scalable to support additional DEX upon request.
    ```bash
    npm install
 
-4. Create a .env file with the following parameters:
-  ```bash
-  INFURA_API_KEY=<your_api_key>
-  PRIVATE_KEY=<your_private_key>
-  TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
+3. Create a .env file with the following parameters:
+   ```bash
+   INFURA_API_KEY=<your_api_key>
+   PRIVATE_KEY=<your_private_key>
+   TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
 
-5. Start the bot:
-  ```bash
-  node telegram.js
+4. Start the bot:
+   ```bash
+   node telegram.js
 
 ###
 
 6. Pricing and Licensing
-Demo Version: $80 (Testnet only).
-Full Version (without support): $2700.
-Licensed under MIT License (see LICENSE file).
-Contact
-For more details or custom solutions, please contact us:
-📧 Email: aladeiash@gmail.com
-📱 Telegram: @botcreater77
+
+   * Demo Version: $80 (Testnet only).
+   * Full Version (without support): $2700.
+   * Licensed under MIT License (see LICENSE file).
+7. Contact:
+   * For more details or custom solutions, please contact us: 📧 Email: aladeiash@gmail.com
+   📱 Telegram: @botcreater77
