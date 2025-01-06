@@ -85,13 +85,16 @@ Scalable to support additional DEX upon request.
 1. Clone the repository:  
    ```bash
    git clone <repository-url>
-Install dependencies:
+   
+2. Install dependencies:
 npm install
-Create a .env file with the following parameters:
+
+4. Create a .env file with the following parameters:
 INFURA_API_KEY=<your_api_key>
 PRIVATE_KEY=<your_private_key>
 TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
-Start the bot:
+
+5. Start the bot:
 node telegram.js
 
 Pricing and Licensing
