@@ -87,15 +87,18 @@ Scalable to support additional DEX upon request.
    git clone <repository-url>
    
 2. Install dependencies:
-npm install
+   ```bash
+   npm install
 
 4. Create a .env file with the following parameters:
-INFURA_API_KEY=<your_api_key>
-PRIVATE_KEY=<your_private_key>
-TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
+  ```bash
+  INFURA_API_KEY=<your_api_key>
+  PRIVATE_KEY=<your_private_key>
+  TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
 
 5. Start the bot:
-node telegram.js
+  ```bash
+  node telegram.js
 
 Pricing and Licensing
 Demo Version: $80 (Testnet only).
