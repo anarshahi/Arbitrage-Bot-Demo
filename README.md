@@ -1,4 +1,3 @@
-
 # Arbitrage Trading Bot for DEX (Information and Demo Access)
 
 This repository contains information about our advanced arbitrage trading bot designed for decentralized exchanges (DEX) such as PancakeSwap, ApeSwap, Biswap, SushiSwap, and 1inch.  
@@ -7,6 +6,17 @@ The bot operates on the Binance Smart Chain (BSC) and supports both testnet and 
 ## Important Notice:
 The demo code for this bot is stored in a **private repository** for security reasons.  
 Access to the demo code is available **only after payment**.  
+
+## Access to Demo Code
+
+The demo code is stored in a **private repository** for security reasons.  
+To get access, please contact us:
+
+📧 **Email:** aladeiash@gmail.com  
+📱 **Telegram:** @botcreater77  
+
+After payment, we will provide an invitation to the private repository:  
+[Access Private Repository (After Payment)](https://github.com/username/arbitrage-bot-code.git)  
 
 ## How to Get Access:
 1. Contact us via email or Telegram:  
@@ -101,4 +111,5 @@ Scalable to support additional DEX upon request.
 
 For more details or custom solutions, please contact us:  
 📧 **Email:** aladeiash@gmail.com  
-📱 **Telegram:** @botcreater77  
+📱 **Telegram:** @botcreater77
+
