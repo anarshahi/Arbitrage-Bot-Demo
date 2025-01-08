@@ -1,21 +1,28 @@
-
 # Arbitrage Trading Bot for DEX (Information and Demo Access)
 
 This repository contains information about our advanced arbitrage trading bot designed for decentralized exchanges (DEX) such as PancakeSwap, ApeSwap, Biswap, SushiSwap, and 1inch.  
 The bot operates on the Binance Smart Chain (BSC) and supports both testnet and mainnet environments.
 
+---
+
 ## Important Notice:
 The demo code for this bot is stored in a **private repository** for security reasons.  
-Access to the demo code is available **only after payment**.
-In the botom of page you can find **price list**. 
+Access to the demo code is available **only after payment**.  
+
+### **Price List:**
+- **Demo Version (Testnet Only):** $80  
+- **Full Version (without support):** $2700  
+
+---
 
 ## How to Get Access:
 1. Contact us via email or Telegram:  
    - 📧 **Email:** aladeiash@gmail.com  
    - 📱 **Telegram:** @botcreater77  
-2. After payment, we will invite you to the **private repository** containing the demo code.
-3. After payment, we will provide an invitation to the private repository:  
-[Access Private Repository (After Payment)](https://github.com/anarshahi/arbitrage_bot_code_demo.git)  
+2. After payment, we will invite you to the **private repository** containing the demo code.  
+3. The private repository link will be shared after payment confirmation.  
+
+---
 
 ## Key Features
 
@@ -74,6 +81,10 @@ In the botom of page you can find **price list**.
 ### 12. Security
 - Secure storage of API keys using .env files.  
 - File permissions to restrict unauthorized access.  
+- Authorization key and expiry date for demo version protection.  
+- Allowed user IDs for Telegram access.
+
+---
 
 ## Supported DEX
 - PancakeSwap  
@@ -83,6 +94,8 @@ In the botom of page you can find **price list**.
 - 1inch  
 
 Scalable to support additional DEX upon request.  
+
+---
 
 ## Technical Specifications
 
@@ -94,14 +107,73 @@ Scalable to support additional DEX upon request.
   - Disk Space: 5 GB  
   - OS: Ubuntu 20.04 or newer  
 
-## Pricing and Licensing
+---
 
+## Installation and Setup
+
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd arbitrage_bot_code_demo
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Create and Configure the `.env` File
+```bash
+nano .env
+```
+
+**Add the following parameters:**
+```plaintext
+AUTH_KEY=securekey123
+INFURA_API_KEY=http://127.0.0.1:8545
+PRIVATE_KEY=<Ganache_Private_Key>
+TELEGRAM_BOT_TOKEN=<Your_Telegram_Bot_Token>
+```
+
+### 4. Start Ganache
+```bash
+ganache --chain.chainId 97 --miner.gasLimit 30000000
+```
+
+### 5. Test Connection
+```bash
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}' -H "Content-Type: application/json" http://127.0.0.1:8545
+```
+
+### 6. Run the Bot
+```bash
+node telegram_demo.js
+```
+
+### 7. Telegram Commands
+- `/status` - Check wallet balance.  
+- `/simulate` - Simulate trade.  
+- `/help` - List all commands.  
+
+---
+
+## Troubleshooting
+- **Ganache RPC Issues:**  
+  Restart Ganache if errors occur and ensure the correct network ID is used.  
+- **Balance Errors:**  
+  Double-check the private key and testnet settings.  
+
+---
+
+## Licensing
 - **Demo Version (Testnet Only):** $80  
 - **Full Version (without support):** $2700  
 - Licensed under **MIT License** (see LICENSE file).  
 
-## Contact
+---
 
+## Contact
 For more details or custom solutions, please contact us:  
 📧 **Email:** aladeiash@gmail.com  
-📱 **Telegram:** @botcreater77  
+📱 **Telegram:** @botcreater77
+
